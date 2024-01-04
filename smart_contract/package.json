@@ -1,0 +1,21 @@
+{
+  "name": "smart_contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^4.6.0",
+    "hardhat": "^2.19.4"
+  },
+  "dependencies": {
+    "alchemy-sdk": "^3.1.0",
+    "ethereum-waffle": "^4.0.10"
+  }
+}
