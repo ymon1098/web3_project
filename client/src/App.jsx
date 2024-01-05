@@ -1,4 +1,5 @@
 import './App.css'
+import Welcome from './components/Welcome'
 
 const App = () => {
   return (
@@ -7,6 +8,7 @@ const App = () => {
         <h1 class="text-3xl font-bold underline">
           Hello world!
         </h1>
+        <Welcome />
       </div>
     </>
   )
